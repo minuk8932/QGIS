@@ -1,4 +1,4 @@
 # QGIS
 
-.gitignore
+.gitignore <br>
 위 파일에 명시된 확장자를 가진 파일의 경우. 프로젝트 완료후 CDN 등을 통해 업로드 할 예정입니다.

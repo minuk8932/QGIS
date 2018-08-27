@@ -5,34 +5,37 @@
   <evaluateDefaultValues active="0"/>
   <layer-tree-group expanded="1" checked="Qt::PartiallyChecked" name="">
     <customproperties/>
+    <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Checked" id="all_terrain20180827180426809" source="/Users/minchoba/Documents/QGIS/example_data(Swellendam)/training_manual_exercise_data/exercise_data/residential_development/all_terrain.shp" name="all_terrain">
+      <customproperties/>
+    </layer-tree-layer>
     <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Checked" id="all_terrain20180827175949369" source="/Users/minchoba/Documents/QGIS/example_data(Swellendam)/training_manual_exercise_data/exercise_data/residential_development/all_terrain.shp" name="suitable_terrain">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" providerKey="gdal" checked="Qt::Checked" id="all_condition_simple20180827172555946" source="/Users/minchoba/Documents/QGIS/example_data(Swellendam)/training_manual_exercise_data/exercise_data/residential_development/all_condition_simple.tif" name="all_condition_simple">
+    <layer-tree-layer expanded="0" providerKey="gdal" checked="Qt::Checked" id="all_condition_simple20180827172555946" source="/Users/minchoba/Documents/QGIS/example_data(Swellendam)/training_manual_exercise_data/exercise_data/residential_development/all_condition_simple.tif" name="all_condition_simple">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" providerKey="gdal" checked="Qt::Unchecked" id="all_conditions_sieve20180827172446465" source="/Users/minchoba/Documents/QGIS/example_data(Swellendam)/training_manual_exercise_data/exercise_data/residential_development/all_conditions_sieve.tif" name="all_conditions_sieve">
+    <layer-tree-layer expanded="0" providerKey="gdal" checked="Qt::Unchecked" id="all_conditions_sieve20180827172446465" source="/Users/minchoba/Documents/QGIS/example_data(Swellendam)/training_manual_exercise_data/exercise_data/residential_development/all_conditions_sieve.tif" name="all_conditions_sieve">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" providerKey="gdal" checked="Qt::Unchecked" id="all_conditions20180827172318386" source="/Users/minchoba/Documents/QGIS/example_data(Swellendam)/training_manual_exercise_data/exercise_data/residential_development/all_conditions.tif" name="all_conditions">
+    <layer-tree-layer expanded="0" providerKey="gdal" checked="Qt::Unchecked" id="all_conditions20180827172318386" source="/Users/minchoba/Documents/QGIS/example_data(Swellendam)/training_manual_exercise_data/exercise_data/residential_development/all_conditions.tif" name="all_conditions">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" providerKey="gdal" checked="Qt::Unchecked" id="slope_lte520180827172153164" source="/Users/minchoba/Documents/QGIS/example_data(Swellendam)/training_manual_exercise_data/exercise_data/residential_development/slope_lte5.tif" name="slope_lte5">
+    <layer-tree-layer expanded="0" providerKey="gdal" checked="Qt::Unchecked" id="slope_lte520180827172153164" source="/Users/minchoba/Documents/QGIS/example_data(Swellendam)/training_manual_exercise_data/exercise_data/residential_development/slope_lte5.tif" name="slope_lte5">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" providerKey="gdal" checked="Qt::Unchecked" id="slope_lte220180827172040984" source="/Users/minchoba/Documents/QGIS/example_data(Swellendam)/training_manual_exercise_data/exercise_data/residential_development/slope_lte2.tif" name="slope_lte2">
+    <layer-tree-layer expanded="0" providerKey="gdal" checked="Qt::Unchecked" id="slope_lte220180827172040984" source="/Users/minchoba/Documents/QGIS/example_data(Swellendam)/training_manual_exercise_data/exercise_data/residential_development/slope_lte2.tif" name="slope_lte2">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" providerKey="gdal" checked="Qt::Unchecked" id="slope20180827162005515" source="/Users/minchoba/Documents/QGIS/example_data(Swellendam)/training_manual_exercise_data/exercise_data/residential_development/slope.tif" name="slope">
+    <layer-tree-layer expanded="0" providerKey="gdal" checked="Qt::Unchecked" id="slope20180827162005515" source="/Users/minchoba/Documents/QGIS/example_data(Swellendam)/training_manual_exercise_data/exercise_data/residential_development/slope.tif" name="slope">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" providerKey="gdal" checked="Qt::Unchecked" id="aspect_north20180827143014319" source="/Users/minchoba/Documents/QGIS/example_data(Swellendam)/training_manual_exercise_data/exercise_data/residential_development/aspect_north.tif" name="aspect_north">
+    <layer-tree-layer expanded="0" providerKey="gdal" checked="Qt::Unchecked" id="aspect_north20180827143014319" source="/Users/minchoba/Documents/QGIS/example_data(Swellendam)/training_manual_exercise_data/exercise_data/residential_development/aspect_north.tif" name="aspect_north">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" providerKey="gdal" checked="Qt::Unchecked" id="aspect20180827142605052" source="/Users/minchoba/Documents/QGIS/example_data(Swellendam)/training_manual_exercise_data/exercise_data/residential_development/aspect.tif" name="aspect">
+    <layer-tree-layer expanded="0" providerKey="gdal" checked="Qt::Unchecked" id="aspect20180827142605052" source="/Users/minchoba/Documents/QGIS/example_data(Swellendam)/training_manual_exercise_data/exercise_data/residential_development/aspect.tif" name="aspect">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" providerKey="gdal" checked="Qt::Unchecked" id="srtm_41_1920180824152308148" source="/Users/minchoba/Documents/QGIS/example_data(Swellendam)/training_manual_exercise_data/exercise_data/raster/SRTM/srtm_41_19.tif" name="DEM">
+    <layer-tree-layer expanded="0" providerKey="gdal" checked="Qt::Unchecked" id="srtm_41_1920180824152308148" source="/Users/minchoba/Documents/QGIS/example_data(Swellendam)/training_manual_exercise_data/exercise_data/raster/SRTM/srtm_41_19.tif" name="DEM">
       <customproperties/>
     </layer-tree-layer>
   </layer-tree-group>
@@ -40,10 +43,10 @@
   <mapcanvas>
     <units>degrees</units>
     <extent>
-      <xmin>19.22165934885764926</xmin>
-      <ymin>-34.97663524912126576</ymin>
-      <xmax>25.57070471968366121</xmax>
-      <ymax>-29.72575324912126149</ymax>
+      <xmin>18.97249623110720762</xmin>
+      <ymin>-34.95817872188049336</ymin>
+      <xmax>25.32154160193321957</xmax>
+      <ymax>-29.70729672188048909</ymax>
     </extent>
     <rotation>0</rotation>
     <projections>1</projections>
@@ -70,10 +73,11 @@
       <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="slope20180827154420699"/>
       <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="slope_lte220180827160441829"/>
       <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="slope20180827161405607"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="all_terrain20180827180426809"/>
       <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="slope20180827150552321"/>
       <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="slope_lte520180827162246005"/>
-      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="slope_lte220180827161447562"/>
       <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="all_condition_simple20180827171351776"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="slope_lte220180827161447562"/>
       <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="slope20180827154735253"/>
       <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="slope_lte220180827172040984"/>
       <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="slope_lte520180827172153164"/>
@@ -110,56 +114,62 @@
       <item>all_conditions_sieve20180827172446465</item>
       <item>all_condition_simple20180827172555946</item>
       <item>all_terrain20180827175949369</item>
+      <item>all_terrain20180827180426809</item>
     </custom-order>
   </layer-tree-canvas>
   <legend updateDrawingOrder="true">
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="all_terrain" showFeatureCount="0">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="all_terrain20180827180426809" visible="1"/>
+      </filegroup>
+    </legendlayer>
     <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="suitable_terrain" showFeatureCount="0">
       <filegroup open="true" hidden="false">
         <legendlayerfile isInOverview="0" layerid="all_terrain20180827175949369" visible="1"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="all_condition_simple" showFeatureCount="0">
-      <filegroup open="true" hidden="false">
+    <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="all_condition_simple" showFeatureCount="0">
+      <filegroup open="false" hidden="false">
         <legendlayerfile isInOverview="0" layerid="all_condition_simple20180827172555946" visible="1"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="all_conditions_sieve" showFeatureCount="0">
-      <filegroup open="true" hidden="false">
+    <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="all_conditions_sieve" showFeatureCount="0">
+      <filegroup open="false" hidden="false">
         <legendlayerfile isInOverview="0" layerid="all_conditions_sieve20180827172446465" visible="0"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="all_conditions" showFeatureCount="0">
-      <filegroup open="true" hidden="false">
+    <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="all_conditions" showFeatureCount="0">
+      <filegroup open="false" hidden="false">
         <legendlayerfile isInOverview="0" layerid="all_conditions20180827172318386" visible="0"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="slope_lte5" showFeatureCount="0">
-      <filegroup open="true" hidden="false">
+    <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="slope_lte5" showFeatureCount="0">
+      <filegroup open="false" hidden="false">
         <legendlayerfile isInOverview="0" layerid="slope_lte520180827172153164" visible="0"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="slope_lte2" showFeatureCount="0">
-      <filegroup open="true" hidden="false">
+    <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="slope_lte2" showFeatureCount="0">
+      <filegroup open="false" hidden="false">
         <legendlayerfile isInOverview="0" layerid="slope_lte220180827172040984" visible="0"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="slope" showFeatureCount="0">
-      <filegroup open="true" hidden="false">
+    <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="slope" showFeatureCount="0">
+      <filegroup open="false" hidden="false">
         <legendlayerfile isInOverview="0" layerid="slope20180827162005515" visible="0"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="aspect_north" showFeatureCount="0">
-      <filegroup open="true" hidden="false">
+    <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="aspect_north" showFeatureCount="0">
+      <filegroup open="false" hidden="false">
         <legendlayerfile isInOverview="0" layerid="aspect_north20180827143014319" visible="0"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="aspect" showFeatureCount="0">
-      <filegroup open="true" hidden="false">
+    <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="aspect" showFeatureCount="0">
+      <filegroup open="false" hidden="false">
         <legendlayerfile isInOverview="0" layerid="aspect20180827142605052" visible="0"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="DEM" showFeatureCount="0">
-      <filegroup open="true" hidden="false">
+    <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="DEM" showFeatureCount="0">
+      <filegroup open="false" hidden="false">
         <legendlayerfile isInOverview="0" layerid="srtm_41_1920180824152308148" visible="0"/>
       </filegroup>
     </legendlayer>
@@ -345,9 +355,6 @@
         <edittype widgetv2type="TextEdit" name="suitable">
           <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="orig_ogc_f">
-          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
-        </edittype>
       </edittypes>
       <renderer-v2 forceraster="0" symbollevels="0" type="singleSymbol" enableorderby="0">
         <symbols>
@@ -397,10 +404,115 @@
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
+      <annotationform>.</annotationform>
+      <aliases>
+        <alias field="suitable" index="0" name=""/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <attributeactions default="-1"/>
+      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
+        <columns/>
+      </attributetableconfig>
+      <editform>.</editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath>.</editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <widgets/>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <defaults>
+        <default field="suitable" expression=""/>
+      </defaults>
+      <previewExpression></previewExpression>
+    </maplayer>
+    <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" readOnly="0" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+      <id>all_terrain20180827180426809</id>
+      <datasource>./residential_development/all_terrain.shp</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>all_terrain</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <provider encoding="System">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <expressionfields/>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <edittypes>
+        <edittype widgetv2type="TextEdit" name="suitable">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+      </edittypes>
+      <renderer-v2 forceraster="0" symbollevels="0" type="singleSymbol" enableorderby="0">
+        <symbols>
+          <symbol alpha="1" clip_to_extent="1" type="fill" name="0">
+            <layer pass="0" class="SimpleFill" locked="0">
+              <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="color" v="126,147,67,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="0,0,0,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale scalemethod="diameter"/>
+      </renderer-v2>
+      <labeling type="simple"/>
+      <customproperties/>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerTransparency>0</layerTransparency>
+      <displayfield>suitable</displayfield>
+      <label>0</label>
+      <labelattributes>
+        <label fieldname="" text="라벨"/>
+        <family fieldname="" name=".Helvetica Neue DeskInterface"/>
+        <size fieldname="" units="pt" value="12"/>
+        <bold fieldname="" on="0"/>
+        <italic fieldname="" on="0"/>
+        <underline fieldname="" on="0"/>
+        <strikeout fieldname="" on="0"/>
+        <color fieldname="" red="0" blue="0" green="0"/>
+        <x fieldname=""/>
+        <y fieldname=""/>
+        <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
+        <angle fieldname="" value="0" auto="0"/>
+        <alignment fieldname="" value="center"/>
+        <buffercolor fieldname="" red="255" blue="255" green="255"/>
+        <buffersize fieldname="" units="pt" value="1"/>
+        <bufferenabled fieldname="" on=""/>
+        <multilineenabled fieldname="" on=""/>
+        <selectedonly on=""/>
+      </labelattributes>
       <annotationform></annotationform>
       <aliases>
         <alias field="suitable" index="0" name=""/>
-        <alias field="orig_ogc_f" index="1" name=""/>
       </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
@@ -422,7 +534,6 @@
       </conditionalstyles>
       <defaults>
         <default field="suitable" expression=""/>
-        <default field="orig_ogc_f" expression=""/>
       </defaults>
       <previewExpression></previewExpression>
     </maplayer>
@@ -753,8 +864,8 @@
       <DegreeFormat type="QString">MU</DegreeFormat>
     </PositionPrecision>
     <WCSUrl type="QString"></WCSUrl>
-    <WMSServiceCapabilities type="bool">false</WMSServiceCapabilities>
     <WMSContactPhone type="QString"></WMSContactPhone>
+    <WMSServiceCapabilities type="bool">false</WMSServiceCapabilities>
     <WMSServiceAbstract type="QString"></WMSServiceAbstract>
     <WMSContactPosition type="QString"></WMSContactPosition>
     <WMSAddWktGeometry type="bool">false</WMSAddWktGeometry>

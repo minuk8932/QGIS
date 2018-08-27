@@ -5,31 +5,37 @@
   <evaluateDefaultValues active="0"/>
   <layer-tree-group expanded="1" checked="Qt::PartiallyChecked" name="">
     <customproperties/>
-    <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Unchecked" id="solution20180822173305059" source="/Users/minchoba/Documents/QGIS/example_data(Swellendam)/training_manual_exercise_data/exercise_data/solution.shp" name="solution">
+    <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Unchecked" id="suitable_terrain_34S20180827181853581" source="/Users/minchoba/Documents/QGIS/example_data(Swellendam)/training_manual_exercise_data/exercise_data/residential_development/suitable_terrain_34S.shp" name="suitable_terrain_34S">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Unchecked" id="roads_34S20180822154858282" source="/Users/minchoba/Documents/QGIS/example_data(Swellendam)/training_manual_exercise_data/exercise_data/roads_34S.shp" name="roads_34S">
+    <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Unchecked" id="suitable_terrain20180827180852174" source="/Users/minchoba/Documents/QGIS/example_data(Swellendam)/training_manual_exercise_data/exercise_data/residential_development/suitable_terrain.shp" name="suitable_terrain">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Checked" id="roads_34S20180822154858282" source="/Users/minchoba/Documents/QGIS/example_data(Swellendam)/training_manual_exercise_data/exercise_data/roads_34S.shp" name="roads_34S">
       <customproperties/>
     </layer-tree-layer>
     <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Unchecked" id="well_located_houses20180822165004555" source="/Users/minchoba/Documents/QGIS/example_data(Swellendam)/training_manual_exercise_data/exercise_data/well_located_houses.shp" name="well_located_houses">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" providerKey="gdal" checked="Qt::Checked" id="hillshade20180824151715068" source="/Users/minchoba/Documents/QGIS/example_data(Swellendam)/training_manual_exercise_data/exercise_data/residential_development/hillshade.tif" name="hillshade">
+    <layer-tree-layer expanded="0" providerKey="gdal" checked="Qt::Unchecked" id="srtm_41_1920180824145219401" source="/Users/minchoba/Documents/QGIS/example_data(Swellendam)/training_manual_exercise_data/exercise_data/raster/SRTM/srtm_41_19.tif" name="DEM">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="0" providerKey="gdal" checked="Qt::Checked" id="srtm_41_1920180824145219401" source="/Users/minchoba/Documents/QGIS/example_data(Swellendam)/training_manual_exercise_data/exercise_data/raster/SRTM/srtm_41_19.tif" name="DEM">
+    <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Checked" id="solution20180822173305059" source="/Users/minchoba/Documents/QGIS/example_data(Swellendam)/training_manual_exercise_data/exercise_data/solution.shp" name="solution">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" providerKey="gdal" checked="Qt::Unchecked" id="aerial_photos20180824140101796" source="/Users/minchoba/Documents/QGIS/example_data(Swellendam)/training_manual_exercise_data/exercise_data/residential_development/aerial_photos.vrt" name="aerial_photos">
+    <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Checked" id="schools_34S20180822155036305" source="/Users/minchoba/Documents/QGIS/example_data(Swellendam)/training_manual_exercise_data/exercise_data/schools_34S.shp" name="schools_34S">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Unchecked" id="residentials_34S20180822155105696" source="/Users/minchoba/Documents/QGIS/example_data(Swellendam)/training_manual_exercise_data/exercise_data/residentials_34S.shp" name="residentials_34S">
+    <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Checked" id="restuarants_34S20180822154942375" source="/Users/minchoba/Documents/QGIS/example_data(Swellendam)/training_manual_exercise_data/exercise_data/restuarants_34S.shp" name="restuarants_34S">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Unchecked" id="restuarants_34S20180822154942375" source="/Users/minchoba/Documents/QGIS/example_data(Swellendam)/training_manual_exercise_data/exercise_data/restuarants_34S.shp" name="restuarants_34S">
+    <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Checked" id="residentials_34S20180822155105696" source="/Users/minchoba/Documents/QGIS/example_data(Swellendam)/training_manual_exercise_data/exercise_data/residentials_34S.shp" name="residentials_34S">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Unchecked" id="schools_34S20180822155036305" source="/Users/minchoba/Documents/QGIS/example_data(Swellendam)/training_manual_exercise_data/exercise_data/schools_34S.shp" name="schools_34S">
+    <layer-tree-layer expanded="0" providerKey="gdal" checked="Qt::Checked" id="hillshade20180824151715068" source="/Users/minchoba/Documents/QGIS/example_data(Swellendam)/training_manual_exercise_data/exercise_data/residential_development/hillshade.tif" name="hillshade">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer expanded="1" providerKey="gdal" checked="Qt::Checked" id="aerial_photos20180824140101796" source="/Users/minchoba/Documents/QGIS/example_data(Swellendam)/training_manual_exercise_data/exercise_data/residential_development/aerial_photos.vrt" name="aerial_photos">
       <customproperties/>
     </layer-tree-layer>
     <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Unchecked" id="Intersection20180822162356925" source="/Users/minchoba/Documents/QGIS/example_data(Swellendam)/training_manual_exercise_data/exercise_data/residential_development/schools_roads_intersect.shp" name="schools_roads_intersect">
@@ -40,10 +46,10 @@
   <mapcanvas>
     <units>meters</units>
     <extent>
-      <xmin>402639.92436878493754193</xmin>
-      <ymin>6185329.15872829593718052</ymin>
-      <xmax>523995.48004846199182793</xmax>
-      <ymax>6285694.43660872615873814</ymax>
+      <xmin>446084.5077468472882174</xmin>
+      <ymin>6232217.7351662740111351</ymin>
+      <xmax>452152.28553081542486325</xmax>
+      <ymax>6237235.99906028248369694</ymax>
     </extent>
     <rotation>0</rotation>
     <projections>1</projections>
@@ -61,42 +67,44 @@
     </destinationsrs>
     <rendermaptile>0</rendermaptile>
     <layer_coordinate_transform_info>
-      <layer_coordinate_transform destAuthId="EPSG:32734" srcAuthId="EPSG:32734" srcDatumTransform="-1" destDatumTransform="-1" layerid="solution20180822173305059"/>
-      <layer_coordinate_transform destAuthId="EPSG:32734" srcAuthId="EPSG:32734" srcDatumTransform="-1" destDatumTransform="-1" layerid="schools_34S20180822155036305"/>
-      <layer_coordinate_transform destAuthId="EPSG:32734" srcAuthId="EPSG:32734" srcDatumTransform="-1" destDatumTransform="-1" layerid="houses_34S20180822154922237"/>
-      <layer_coordinate_transform destAuthId="EPSG:32734" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="aerial_photos20180824140101796"/>
       <layer_coordinate_transform destAuthId="EPSG:32734" srcAuthId="EPSG:32734" srcDatumTransform="-1" destDatumTransform="-1" layerid="버퍼20180822161758154"/>
-      <layer_coordinate_transform destAuthId="EPSG:32734" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="hillshade20180824145545860"/>
-      <layer_coordinate_transform destAuthId="EPSG:32734" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="3420B_2010_328_RGB_LATLNG20180824135632474"/>
-      <layer_coordinate_transform destAuthId="EPSG:32734" srcAuthId="EPSG:32734" srcDatumTransform="-1" destDatumTransform="-1" layerid="버퍼20180822161922203"/>
-      <layer_coordinate_transform destAuthId="EPSG:32734" srcAuthId="EPSG:32734" srcDatumTransform="-1" destDatumTransform="-1" layerid="버퍼20180822162050806"/>
-      <layer_coordinate_transform destAuthId="EPSG:32734" srcAuthId="EPSG:32734" srcDatumTransform="-1" destDatumTransform="-1" layerid="버퍼20180822161601233"/>
-      <layer_coordinate_transform destAuthId="EPSG:32734" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="osm_data_lines20180822152520422"/>
-      <layer_coordinate_transform destAuthId="EPSG:32734" srcAuthId="EPSG:32734" srcDatumTransform="-1" destDatumTransform="-1" layerid="well_located_houses20180822165004555"/>
-      <layer_coordinate_transform destAuthId="EPSG:32734" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="srtm_41_1920180824145219401"/>
-      <layer_coordinate_transform destAuthId="EPSG:32734" srcAuthId="EPSG:32734" srcDatumTransform="-1" destDatumTransform="-1" layerid="Intersection20180822162356925"/>
-      <layer_coordinate_transform destAuthId="EPSG:32734" srcAuthId="EPSG:32734" srcDatumTransform="-1" destDatumTransform="-1" layerid="well_located_houses20180822164316338"/>
-      <layer_coordinate_transform destAuthId="EPSG:32734" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="roads_34S20180822154525892"/>
-      <layer_coordinate_transform destAuthId="EPSG:32734" srcAuthId="EPSG:32734" srcDatumTransform="-1" destDatumTransform="-1" layerid="residentials_34S20180822155105696"/>
       <layer_coordinate_transform destAuthId="EPSG:32734" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="restuarants_복사20180822152800018"/>
-      <layer_coordinate_transform destAuthId="EPSG:32734" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="hillshade20180824151715068"/>
-      <layer_coordinate_transform destAuthId="EPSG:32734" srcAuthId="EPSG:32734" srcDatumTransform="-1" destDatumTransform="-1" layerid="roads_34S20180822154858282"/>
+      <layer_coordinate_transform destAuthId="EPSG:32734" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="srtm_41_1920180824145219401"/>
       <layer_coordinate_transform destAuthId="EPSG:32734" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="hillshade20180824151725210"/>
+      <layer_coordinate_transform destAuthId="EPSG:32734" srcAuthId="EPSG:32734" srcDatumTransform="-1" destDatumTransform="-1" layerid="roads_34S20180822154858282"/>
+      <layer_coordinate_transform destAuthId="EPSG:32734" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="3420B_2010_328_RGB_LATLNG20180824135632474"/>
       <layer_coordinate_transform destAuthId="EPSG:32734" srcAuthId="EPSG:32734" srcDatumTransform="-1" destDatumTransform="-1" layerid="버퍼20180822165223078"/>
-      <layer_coordinate_transform destAuthId="EPSG:32734" srcAuthId="EPSG:32734" srcDatumTransform="-1" destDatumTransform="-1" layerid="restuarants_34S20180822154942375"/>
-      <layer_coordinate_transform destAuthId="EPSG:32734" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="osm_data_points20180822152520482"/>
-      <layer_coordinate_transform destAuthId="EPSG:32734" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="osm_data_multipolygons20180822152520451"/>
-      <layer_coordinate_transform destAuthId="EPSG:32734" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="3420C_2010_327_RGB_LATLNG20180824135632431"/>
-      <layer_coordinate_transform destAuthId="EPSG:32734" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="osm_data_lines20180822154721718"/>
-      <layer_coordinate_transform destAuthId="EPSG:32734" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="srtm_41_1920180824142931769"/>
-      <layer_coordinate_transform destAuthId="EPSG:32734" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="osm_data_multipolygons20180822163557923"/>
-      <layer_coordinate_transform destAuthId="EPSG:32734" srcAuthId="EPSG:32734" srcDatumTransform="-1" destDatumTransform="-1" layerid="houses_34S20180822163848488"/>
-      <layer_coordinate_transform destAuthId="EPSG:32734" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="3320D_2010_315_RGB_LATLNG20180824135632493"/>
-      <layer_coordinate_transform destAuthId="EPSG:32734" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="roads_복사20180822153258717"/>
-      <layer_coordinate_transform destAuthId="EPSG:32734" srcAuthId="EPSG:32734" srcDatumTransform="-1" destDatumTransform="-1" layerid="houses_restuarants_500m20180822165503432"/>
-      <layer_coordinate_transform destAuthId="EPSG:32734" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="schools_복사20180822152705882"/>
-      <layer_coordinate_transform destAuthId="EPSG:32734" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="residentials_복사20180822152855628"/>
       <layer_coordinate_transform destAuthId="EPSG:32734" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="3320C_2010_314_RGB_LATLNG20180824135632504"/>
+      <layer_coordinate_transform destAuthId="EPSG:32734" srcAuthId="EPSG:32734" srcDatumTransform="-1" destDatumTransform="-1" layerid="suitable_terrain_34S20180827181853581"/>
+      <layer_coordinate_transform destAuthId="EPSG:32734" srcAuthId="EPSG:32734" srcDatumTransform="-1" destDatumTransform="-1" layerid="restuarants_34S20180822154942375"/>
+      <layer_coordinate_transform destAuthId="EPSG:32734" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="roads_34S20180822154525892"/>
+      <layer_coordinate_transform destAuthId="EPSG:32734" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="aerial_photos20180824140101796"/>
+      <layer_coordinate_transform destAuthId="EPSG:32734" srcAuthId="EPSG:32734" srcDatumTransform="-1" destDatumTransform="-1" layerid="버퍼20180822161601233"/>
+      <layer_coordinate_transform destAuthId="EPSG:32734" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="osm_data_multipolygons20180822152520451"/>
+      <layer_coordinate_transform destAuthId="EPSG:32734" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="osm_data_multipolygons20180822163557923"/>
+      <layer_coordinate_transform destAuthId="EPSG:32734" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="roads_복사20180822153258717"/>
+      <layer_coordinate_transform destAuthId="EPSG:32734" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="osm_data_lines20180822152520422"/>
+      <layer_coordinate_transform destAuthId="EPSG:32734" srcAuthId="EPSG:32734" srcDatumTransform="-1" destDatumTransform="-1" layerid="houses_restuarants_500m20180822165503432"/>
+      <layer_coordinate_transform destAuthId="EPSG:32734" srcAuthId="EPSG:32734" srcDatumTransform="-1" destDatumTransform="-1" layerid="houses_34S20180822163848488"/>
+      <layer_coordinate_transform destAuthId="EPSG:32734" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="hillshade20180824145545860"/>
+      <layer_coordinate_transform destAuthId="EPSG:32734" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="schools_복사20180822152705882"/>
+      <layer_coordinate_transform destAuthId="EPSG:32734" srcAuthId="EPSG:32734" srcDatumTransform="-1" destDatumTransform="-1" layerid="schools_34S20180822155036305"/>
+      <layer_coordinate_transform destAuthId="EPSG:32734" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="osm_data_lines20180822154721718"/>
+      <layer_coordinate_transform destAuthId="EPSG:32734" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="residentials_복사20180822152855628"/>
+      <layer_coordinate_transform destAuthId="EPSG:32734" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="3420C_2010_327_RGB_LATLNG20180824135632431"/>
+      <layer_coordinate_transform destAuthId="EPSG:32734" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="3320D_2010_315_RGB_LATLNG20180824135632493"/>
+      <layer_coordinate_transform destAuthId="EPSG:32734" srcAuthId="EPSG:32734" srcDatumTransform="-1" destDatumTransform="-1" layerid="버퍼20180822161922203"/>
+      <layer_coordinate_transform destAuthId="EPSG:32734" srcAuthId="EPSG:32734" srcDatumTransform="-1" destDatumTransform="-1" layerid="Intersection20180822162356925"/>
+      <layer_coordinate_transform destAuthId="EPSG:32734" srcAuthId="EPSG:32734" srcDatumTransform="-1" destDatumTransform="-1" layerid="houses_34S20180822154922237"/>
+      <layer_coordinate_transform destAuthId="EPSG:32734" srcAuthId="EPSG:32734" srcDatumTransform="-1" destDatumTransform="-1" layerid="well_located_houses20180822165004555"/>
+      <layer_coordinate_transform destAuthId="EPSG:32734" srcAuthId="EPSG:32734" srcDatumTransform="-1" destDatumTransform="-1" layerid="suitable_terrain20180827180852174"/>
+      <layer_coordinate_transform destAuthId="EPSG:32734" srcAuthId="EPSG:32734" srcDatumTransform="-1" destDatumTransform="-1" layerid="버퍼20180822162050806"/>
+      <layer_coordinate_transform destAuthId="EPSG:32734" srcAuthId="EPSG:32734" srcDatumTransform="-1" destDatumTransform="-1" layerid="solution20180822173305059"/>
+      <layer_coordinate_transform destAuthId="EPSG:32734" srcAuthId="EPSG:32734" srcDatumTransform="-1" destDatumTransform="-1" layerid="well_located_houses20180822164316338"/>
+      <layer_coordinate_transform destAuthId="EPSG:32734" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="srtm_41_1920180824142931769"/>
+      <layer_coordinate_transform destAuthId="EPSG:32734" srcAuthId="EPSG:32734" srcDatumTransform="-1" destDatumTransform="-1" layerid="residentials_34S20180822155105696"/>
+      <layer_coordinate_transform destAuthId="EPSG:32734" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="hillshade20180824151715068"/>
+      <layer_coordinate_transform destAuthId="EPSG:32734" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="osm_data_points20180822152520482"/>
     </layer_coordinate_transform_info>
   </mapcanvas>
   <layer-tree-canvas>
@@ -111,17 +119,24 @@
       <item>aerial_photos20180824140101796</item>
       <item>srtm_41_1920180824145219401</item>
       <item>hillshade20180824151715068</item>
+      <item>suitable_terrain20180827180852174</item>
+      <item>suitable_terrain_34S20180827181853581</item>
     </custom-order>
   </layer-tree-canvas>
   <legend updateDrawingOrder="true">
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="solution" showFeatureCount="0">
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="suitable_terrain_34S" showFeatureCount="0">
       <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="solution20180822173305059" visible="0"/>
+        <legendlayerfile isInOverview="0" layerid="suitable_terrain_34S20180827181853581" visible="0"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="roads_34S" showFeatureCount="0">
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="suitable_terrain" showFeatureCount="0">
       <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="roads_34S20180822154858282" visible="0"/>
+        <legendlayerfile isInOverview="0" layerid="suitable_terrain20180827180852174" visible="0"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="roads_34S" showFeatureCount="0">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="roads_34S20180822154858282" visible="1"/>
       </filegroup>
     </legendlayer>
     <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="well_located_houses" showFeatureCount="0">
@@ -129,34 +144,39 @@
         <legendlayerfile isInOverview="0" layerid="well_located_houses20180822165004555" visible="0"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="hillshade" showFeatureCount="0">
+    <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="DEM" showFeatureCount="0">
+      <filegroup open="false" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="srtm_41_1920180824145219401" visible="0"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="solution" showFeatureCount="0">
       <filegroup open="true" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="solution20180822173305059" visible="1"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="schools_34S" showFeatureCount="0">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="schools_34S20180822155036305" visible="1"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="restuarants_34S" showFeatureCount="0">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="restuarants_34S20180822154942375" visible="1"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="residentials_34S" showFeatureCount="0">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="residentials_34S20180822155105696" visible="1"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="hillshade" showFeatureCount="0">
+      <filegroup open="false" hidden="false">
         <legendlayerfile isInOverview="0" layerid="hillshade20180824151715068" visible="1"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="DEM" showFeatureCount="0">
-      <filegroup open="false" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="srtm_41_1920180824145219401" visible="1"/>
-      </filegroup>
-    </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="aerial_photos" showFeatureCount="0">
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="aerial_photos" showFeatureCount="0">
       <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="aerial_photos20180824140101796" visible="0"/>
-      </filegroup>
-    </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="residentials_34S" showFeatureCount="0">
-      <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="residentials_34S20180822155105696" visible="0"/>
-      </filegroup>
-    </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="restuarants_34S" showFeatureCount="0">
-      <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="restuarants_34S20180822154942375" visible="0"/>
-      </filegroup>
-    </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="schools_34S" showFeatureCount="0">
-      <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="schools_34S20180822155036305" visible="0"/>
+        <legendlayerfile isInOverview="0" layerid="aerial_photos20180824140101796" visible="1"/>
       </filegroup>
     </legendlayer>
     <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="schools_roads_intersect" showFeatureCount="0">
@@ -2366,6 +2386,228 @@ def my_form_open(dialog, layer, feature):
       <blendMode>0</blendMode>
     </maplayer>
     <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" readOnly="0" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+      <id>suitable_terrain20180827180852174</id>
+      <datasource>./residential_development/suitable_terrain.shp</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>suitable_terrain</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=utm +zone=34 +south +datum=WGS84 +units=m +no_defs</proj4>
+          <srsid>3184</srsid>
+          <srid>32734</srid>
+          <authid>EPSG:32734</authid>
+          <description>WGS 84 / UTM zone 34S</description>
+          <projectionacronym>utm</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <provider encoding="System">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <expressionfields/>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <edittypes>
+        <edittype widgetv2type="TextEdit" name="suitable">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="orig_ogc_f">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+      </edittypes>
+      <renderer-v2 forceraster="0" symbollevels="0" type="singleSymbol" enableorderby="0">
+        <symbols>
+          <symbol alpha="1" clip_to_extent="1" type="fill" name="0">
+            <layer pass="0" class="SimpleFill" locked="0">
+              <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="color" v="51,143,79,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="0,0,0,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale scalemethod="diameter"/>
+      </renderer-v2>
+      <labeling type="simple"/>
+      <customproperties/>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerTransparency>0</layerTransparency>
+      <displayfield>suitable</displayfield>
+      <label>0</label>
+      <labelattributes>
+        <label fieldname="" text="라벨"/>
+        <family fieldname="" name=".Helvetica Neue DeskInterface"/>
+        <size fieldname="" units="pt" value="12"/>
+        <bold fieldname="" on="0"/>
+        <italic fieldname="" on="0"/>
+        <underline fieldname="" on="0"/>
+        <strikeout fieldname="" on="0"/>
+        <color fieldname="" red="0" blue="0" green="0"/>
+        <x fieldname=""/>
+        <y fieldname=""/>
+        <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
+        <angle fieldname="" value="0" auto="0"/>
+        <alignment fieldname="" value="center"/>
+        <buffercolor fieldname="" red="255" blue="255" green="255"/>
+        <buffersize fieldname="" units="pt" value="1"/>
+        <bufferenabled fieldname="" on=""/>
+        <multilineenabled fieldname="" on=""/>
+        <selectedonly on=""/>
+      </labelattributes>
+      <annotationform></annotationform>
+      <aliases>
+        <alias field="suitable" index="0" name=""/>
+        <alias field="orig_ogc_f" index="1" name=""/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <attributeactions default="-1"/>
+      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="995264133">
+        <columns/>
+      </attributetableconfig>
+      <editform></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <widgets/>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <defaults>
+        <default field="suitable" expression=""/>
+        <default field="orig_ogc_f" expression=""/>
+      </defaults>
+      <previewExpression></previewExpression>
+    </maplayer>
+    <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" readOnly="0" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+      <id>suitable_terrain_34S20180827181853581</id>
+      <datasource>./residential_development/suitable_terrain_34S.shp</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>suitable_terrain_34S</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=utm +zone=34 +south +datum=WGS84 +units=m +no_defs</proj4>
+          <srsid>3184</srsid>
+          <srid>32734</srid>
+          <authid>EPSG:32734</authid>
+          <description>WGS 84 / UTM zone 34S</description>
+          <projectionacronym>utm</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <provider encoding="System">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <expressionfields/>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <edittypes>
+        <edittype widgetv2type="TextEdit" name="suitable">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="orig_ogc_f">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+      </edittypes>
+      <renderer-v2 forceraster="0" symbollevels="0" type="singleSymbol" enableorderby="0">
+        <symbols>
+          <symbol alpha="1" clip_to_extent="1" type="fill" name="0">
+            <layer pass="0" class="SimpleFill" locked="0">
+              <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="color" v="97,83,164,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="0,0,0,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale scalemethod="diameter"/>
+      </renderer-v2>
+      <labeling type="simple"/>
+      <customproperties/>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerTransparency>0</layerTransparency>
+      <displayfield>suitable</displayfield>
+      <label>0</label>
+      <labelattributes>
+        <label fieldname="" text="라벨"/>
+        <family fieldname="" name=".Helvetica Neue DeskInterface"/>
+        <size fieldname="" units="pt" value="12"/>
+        <bold fieldname="" on="0"/>
+        <italic fieldname="" on="0"/>
+        <underline fieldname="" on="0"/>
+        <strikeout fieldname="" on="0"/>
+        <color fieldname="" red="0" blue="0" green="0"/>
+        <x fieldname=""/>
+        <y fieldname=""/>
+        <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
+        <angle fieldname="" value="0" auto="0"/>
+        <alignment fieldname="" value="center"/>
+        <buffercolor fieldname="" red="255" blue="255" green="255"/>
+        <buffersize fieldname="" units="pt" value="1"/>
+        <bufferenabled fieldname="" on=""/>
+        <multilineenabled fieldname="" on=""/>
+        <selectedonly on=""/>
+      </labelattributes>
+      <annotationform></annotationform>
+      <aliases>
+        <alias field="suitable" index="0" name=""/>
+        <alias field="orig_ogc_f" index="1" name=""/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <attributeactions default="-1"/>
+      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
+        <columns/>
+      </attributetableconfig>
+      <editform></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <widgets/>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <defaults>
+        <default field="suitable" expression=""/>
+        <default field="orig_ogc_f" expression=""/>
+      </defaults>
+      <previewExpression></previewExpression>
+    </maplayer>
+    <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" readOnly="0" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <extent>
         <xmin>447062.15532202075701207</xmin>
         <ymin>6233600.95371900591999292</ymin>
@@ -2857,8 +3099,8 @@ def my_form_open(dialog, layer, feature):
       <DegreeFormat type="QString">MU</DegreeFormat>
     </PositionPrecision>
     <WCSUrl type="QString"></WCSUrl>
-    <WMSContactPhone type="QString"></WMSContactPhone>
     <WMSServiceCapabilities type="bool">false</WMSServiceCapabilities>
+    <WMSContactPhone type="QString"></WMSContactPhone>
     <WMSServiceAbstract type="QString"></WMSServiceAbstract>
     <WMSContactPosition type="QString"></WMSContactPosition>
     <WMSAddWktGeometry type="bool">false</WMSAddWktGeometry>

@@ -3,21 +3,18 @@
   <title></title>
   <autotransaction active="0"/>
   <evaluateDefaultValues active="0"/>
-  <layer-tree-group expanded="1" checked="Qt::PartiallyChecked" name="">
+  <layer-tree-group expanded="1" checked="Qt::Checked" name="">
     <customproperties/>
     <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Checked" id="Street_Names_UTM33S20180828130038762" source="/Users/minchoba/Documents/QGIS/example_data(Swellendam)/training_manual_exercise_data/exercise_data/more_analysis/Streets/Street_Names_UTM33S.shp" name="Streets">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Checked" id="Generalised_Zoning_Dissolve_UTM33S20180828130248129" source="/Users/minchoba/Documents/QGIS/example_data(Swellendam)/training_manual_exercise_data/exercise_data/more_analysis/Zoning/Generalised_Zoning_Dissolve_UTM33S.shp" name="Zoning">
+    <layer-tree-layer expanded="1" providerKey="gdal" checked="Qt::Checked" id="aspect_east20180827201359601" source="/Users/minchoba/Documents/QGIS/example_data(Swellendam)/training_manual_exercise_data/exercise_data/Rasterprac/aspect_east.tif" name="aspect_east">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="0" providerKey="gdal" checked="Qt::Checked" id="aspect_east20180827201359601" source="/Users/minchoba/Documents/QGIS/example_data(Swellendam)/training_manual_exercise_data/exercise_data/Rasterprac/aspect_east.tif" name="aspect_east">
+    <layer-tree-layer expanded="1" providerKey="gdal" checked="Qt::Checked" id="aspect20180827201050359" source="/Users/minchoba/Documents/QGIS/example_data(Swellendam)/training_manual_exercise_data/exercise_data/Rasterprac/aspect.tif" name="aspect">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="0" providerKey="gdal" checked="Qt::Unchecked" id="aspect20180827201050359" source="/Users/minchoba/Documents/QGIS/example_data(Swellendam)/training_manual_exercise_data/exercise_data/Rasterprac/aspect.tif" name="aspect">
-      <customproperties/>
-    </layer-tree-layer>
-    <layer-tree-layer expanded="0" providerKey="gdal" checked="Qt::Unchecked" id="DEM20180827200939466" source="/Users/minchoba/Documents/QGIS/DEM/reprojected/DEM" name="DEM">
+    <layer-tree-layer expanded="1" providerKey="gdal" checked="Qt::Checked" id="DEM20180827200939466" source="/Users/minchoba/Documents/QGIS/DEM/reprojected/DEM" name="DEM">
       <customproperties/>
     </layer-tree-layer>
   </layer-tree-group>
@@ -25,10 +22,10 @@
   <mapcanvas>
     <units>meters</units>
     <extent>
-      <xmin>798323.6755975199630484</xmin>
-      <ymin>6193191.73328080307692289</ymin>
-      <xmax>853226.31128308793995529</xmax>
-      <ymax>6298677.52087192889302969</ymax>
+      <xmin>816862.47833761235233396</xmin>
+      <ymin>6182624.61571895051747561</ymin>
+      <xmax>871765.11402318032924086</xmax>
+      <ymax>6288110.4033100763335824</ymax>
     </extent>
     <rotation>0</rotation>
     <projections>1</projections>
@@ -46,7 +43,6 @@
     </destinationsrs>
     <rendermaptile>0</rendermaptile>
     <layer_coordinate_transform_info>
-      <layer_coordinate_transform destAuthId="EPSG:32733" srcAuthId="EPSG:32733" srcDatumTransform="-1" destDatumTransform="-1" layerid="Generalised_Zoning_Dissolve_UTM33S20180828130248129"/>
       <layer_coordinate_transform destAuthId="EPSG:32733" srcAuthId="EPSG:32733" srcDatumTransform="-1" destDatumTransform="-1" layerid="aspect_east20180827201359601"/>
       <layer_coordinate_transform destAuthId="EPSG:32733" srcAuthId="EPSG:32733" srcDatumTransform="-1" destDatumTransform="-1" layerid="aspect20180827201050359"/>
       <layer_coordinate_transform destAuthId="EPSG:32733" srcAuthId="EPSG:32733" srcDatumTransform="-1" destDatumTransform="-1" layerid="DEM20180827200939466"/>
@@ -59,7 +55,6 @@
       <item>aspect20180827201050359</item>
       <item>aspect_east20180827201359601</item>
       <item>Street_Names_UTM33S20180828130038762</item>
-      <item>Generalised_Zoning_Dissolve_UTM33S20180828130248129</item>
     </custom-order>
   </layer-tree-canvas>
   <legend updateDrawingOrder="true">
@@ -68,24 +63,19 @@
         <legendlayerfile isInOverview="0" layerid="Street_Names_UTM33S20180828130038762" visible="1"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Zoning" showFeatureCount="0">
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="aspect_east" showFeatureCount="0">
       <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="Generalised_Zoning_Dissolve_UTM33S20180828130248129" visible="1"/>
-      </filegroup>
-    </legendlayer>
-    <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="aspect_east" showFeatureCount="0">
-      <filegroup open="false" hidden="false">
         <legendlayerfile isInOverview="0" layerid="aspect_east20180827201359601" visible="1"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="aspect" showFeatureCount="0">
-      <filegroup open="false" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="aspect20180827201050359" visible="0"/>
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="aspect" showFeatureCount="0">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="aspect20180827201050359" visible="1"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="DEM" showFeatureCount="0">
-      <filegroup open="false" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="DEM20180827200939466" visible="0"/>
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="DEM" showFeatureCount="0">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="DEM20180827200939466" visible="1"/>
       </filegroup>
     </legendlayer>
   </legend>
@@ -139,112 +129,6 @@
         <rasterresampler maxOversampling="2"/>
       </pipe>
       <blendMode>0</blendMode>
-    </maplayer>
-    <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" readOnly="0" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
-      <id>Generalised_Zoning_Dissolve_UTM33S20180828130248129</id>
-      <datasource>../more_analysis/Zoning/Generalised_Zoning_Dissolve_UTM33S.shp</datasource>
-      <keywordList>
-        <value></value>
-      </keywordList>
-      <layername>Zoning</layername>
-      <srs>
-        <spatialrefsys>
-          <proj4>+proj=utm +zone=33 +south +datum=WGS84 +units=m +no_defs</proj4>
-          <srsid>3183</srsid>
-          <srid>32733</srid>
-          <authid>EPSG:32733</authid>
-          <description>WGS 84 / UTM zone 33S</description>
-          <projectionacronym>utm</projectionacronym>
-          <ellipsoidacronym>WGS84</ellipsoidacronym>
-          <geographicflag>false</geographicflag>
-        </spatialrefsys>
-      </srs>
-      <provider encoding="System">ogr</provider>
-      <vectorjoins/>
-      <layerDependencies/>
-      <expressionfields/>
-      <map-layer-style-manager current="">
-        <map-layer-style name=""/>
-      </map-layer-style-manager>
-      <edittypes>
-        <edittype widgetv2type="TextEdit" name="Gen_Zoning">
-          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
-        </edittype>
-      </edittypes>
-      <renderer-v2 forceraster="0" symbollevels="0" type="singleSymbol" enableorderby="0">
-        <symbols>
-          <symbol alpha="1" clip_to_extent="1" type="fill" name="0">
-            <layer pass="0" class="SimpleFill" locked="0">
-              <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="color" v="160,52,48,255"/>
-              <prop k="joinstyle" v="bevel"/>
-              <prop k="offset" v="0,0"/>
-              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="offset_unit" v="MM"/>
-              <prop k="outline_color" v="0,0,0,255"/>
-              <prop k="outline_style" v="solid"/>
-              <prop k="outline_width" v="0.26"/>
-              <prop k="outline_width_unit" v="MM"/>
-              <prop k="style" v="solid"/>
-            </layer>
-          </symbol>
-        </symbols>
-        <rotation/>
-        <sizescale scalemethod="diameter"/>
-      </renderer-v2>
-      <labeling type="simple"/>
-      <customproperties/>
-      <blendMode>0</blendMode>
-      <featureBlendMode>0</featureBlendMode>
-      <layerTransparency>0</layerTransparency>
-      <displayfield>Gen_Zoning</displayfield>
-      <label>0</label>
-      <labelattributes>
-        <label fieldname="" text="라벨"/>
-        <family fieldname="" name=".Helvetica Neue DeskInterface"/>
-        <size fieldname="" units="pt" value="12"/>
-        <bold fieldname="" on="0"/>
-        <italic fieldname="" on="0"/>
-        <underline fieldname="" on="0"/>
-        <strikeout fieldname="" on="0"/>
-        <color fieldname="" red="0" blue="0" green="0"/>
-        <x fieldname=""/>
-        <y fieldname=""/>
-        <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
-        <angle fieldname="" value="0" auto="0"/>
-        <alignment fieldname="" value="center"/>
-        <buffercolor fieldname="" red="255" blue="255" green="255"/>
-        <buffersize fieldname="" units="pt" value="1"/>
-        <bufferenabled fieldname="" on=""/>
-        <multilineenabled fieldname="" on=""/>
-        <selectedonly on=""/>
-      </labelattributes>
-      <annotationform></annotationform>
-      <aliases>
-        <alias field="Gen_Zoning" index="0" name=""/>
-      </aliases>
-      <excludeAttributesWMS/>
-      <excludeAttributesWFS/>
-      <attributeactions default="-1"/>
-      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
-        <columns/>
-      </attributetableconfig>
-      <editform></editform>
-      <editforminit/>
-      <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath></editforminitfilepath>
-      <editforminitcode><![CDATA[]]></editforminitcode>
-      <featformsuppress>0</featformsuppress>
-      <editorlayout>generatedlayout</editorlayout>
-      <widgets/>
-      <conditionalstyles>
-        <rowstyles/>
-        <fieldstyles/>
-      </conditionalstyles>
-      <defaults>
-        <default field="Gen_Zoning" expression=""/>
-      </defaults>
-      <previewExpression></previewExpression>
     </maplayer>
     <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" readOnly="0" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>Street_Names_UTM33S20180828130038762</id>

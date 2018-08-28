@@ -14,6 +14,9 @@
     <layer-tree-layer expanded="0" providerKey="gdal" checked="Qt::Checked" id="aspect_east20180827201359601" source="/Users/minchoba/Documents/QGIS/example_data(Swellendam)/training_manual_exercise_data/exercise_data/Rasterprac/aspect_east.tif" name="aspect_east">
       <customproperties/>
     </layer-tree-layer>
+    <layer-tree-layer expanded="1" providerKey="gdal" checked="Qt::Checked" id="rainfall20180828131528393" source="/Users/minchoba/Documents/QGIS/example_data(Swellendam)/training_manual_exercise_data/exercise_data/more_analysis/Rainfall/reprojected/rainfall.tif" name="Rainfall">
+      <customproperties/>
+    </layer-tree-layer>
     <layer-tree-layer expanded="0" providerKey="gdal" checked="Qt::Unchecked" id="aspect20180827201050359" source="/Users/minchoba/Documents/QGIS/example_data(Swellendam)/training_manual_exercise_data/exercise_data/Rasterprac/aspect.tif" name="aspect">
       <customproperties/>
     </layer-tree-layer>
@@ -25,10 +28,10 @@
   <mapcanvas>
     <units>meters</units>
     <extent>
-      <xmin>798323.6755975199630484</xmin>
-      <ymin>6193191.73328080307692289</ymin>
-      <xmax>853226.31128308793995529</xmax>
-      <ymax>6298677.52087192889302969</ymax>
+      <xmin>799065.22770712361671031</xmin>
+      <ymin>6192820.95722600072622299</ymin>
+      <xmax>853967.8633926915936172</xmax>
+      <ymax>6298306.74481712654232979</ymax>
     </extent>
     <rotation>0</rotation>
     <projections>1</projections>
@@ -46,7 +49,9 @@
     </destinationsrs>
     <rendermaptile>0</rendermaptile>
     <layer_coordinate_transform_info>
+      <layer_coordinate_transform destAuthId="EPSG:32733" srcAuthId="EPSG:32733" srcDatumTransform="-1" destDatumTransform="-1" layerid="rainfall20180828131528393"/>
       <layer_coordinate_transform destAuthId="EPSG:32733" srcAuthId="EPSG:32733" srcDatumTransform="-1" destDatumTransform="-1" layerid="Generalised_Zoning_Dissolve_UTM33S20180828130248129"/>
+      <layer_coordinate_transform destAuthId="EPSG:32733" srcAuthId="EPSG:32733" srcDatumTransform="-1" destDatumTransform="-1" layerid="DEM20180828131455331"/>
       <layer_coordinate_transform destAuthId="EPSG:32733" srcAuthId="EPSG:32733" srcDatumTransform="-1" destDatumTransform="-1" layerid="aspect_east20180827201359601"/>
       <layer_coordinate_transform destAuthId="EPSG:32733" srcAuthId="EPSG:32733" srcDatumTransform="-1" destDatumTransform="-1" layerid="aspect20180827201050359"/>
       <layer_coordinate_transform destAuthId="EPSG:32733" srcAuthId="EPSG:32733" srcDatumTransform="-1" destDatumTransform="-1" layerid="DEM20180827200939466"/>
@@ -60,6 +65,7 @@
       <item>aspect_east20180827201359601</item>
       <item>Street_Names_UTM33S20180828130038762</item>
       <item>Generalised_Zoning_Dissolve_UTM33S20180828130248129</item>
+      <item>rainfall20180828131528393</item>
     </custom-order>
   </layer-tree-canvas>
   <legend updateDrawingOrder="true">
@@ -76,6 +82,11 @@
     <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="aspect_east" showFeatureCount="0">
       <filegroup open="false" hidden="false">
         <legendlayerfile isInOverview="0" layerid="aspect_east20180827201359601" visible="1"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Rainfall" showFeatureCount="0">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="rainfall20180828131528393" visible="1"/>
       </filegroup>
     </legendlayer>
     <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="aspect" showFeatureCount="0">
@@ -521,6 +532,56 @@
       </pipe>
       <blendMode>0</blendMode>
     </maplayer>
+    <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+      <extent>
+        <xmin>803894.66453742026351392</xmin>
+        <ymin>6191213.71578096970915794</ymin>
+        <xmax>855926.88186689675785601</xmax>
+        <ymax>6291809.33595129102468491</ymax>
+      </extent>
+      <id>rainfall20180828131528393</id>
+      <datasource>../more_analysis/Rainfall/reprojected/rainfall.tif</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>Rainfall</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=utm +zone=33 +south +datum=WGS84 +units=m +no_defs</proj4>
+          <srsid>3183</srsid>
+          <srid>32733</srid>
+          <authid>EPSG:32733</authid>
+          <description>WGS 84 / UTM zone 33S</description>
+          <projectionacronym>utm</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <customproperties>
+        <property key="identify/format" value="Value"/>
+      </customproperties>
+      <provider>gdal</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="0"/>
+      </noData>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <pipe>
+        <rasterrenderer gradient="BlackToWhite" opacity="1" alphaBand="-1" type="singlebandgray" grayBand="1">
+          <rasterTransparency/>
+          <contrastEnhancement>
+            <minValue>0</minValue>
+            <maxValue>1033</maxValue>
+            <algorithm>StretchToMinimumMaximum</algorithm>
+          </contrastEnhancement>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
   </projectlayers>
   <properties>
     <Variables>
@@ -573,15 +634,30 @@
     </Gui>
     <Digitizing>
       <DefaultSnapToleranceUnit type="int">2</DefaultSnapToleranceUnit>
-      <LayerSnappingList type="QStringList"/>
-      <LayerSnappingEnabledList type="QStringList"/>
+      <LayerSnappingList type="QStringList">
+        <value>Street_Names_UTM33S20180828130038762</value>
+        <value>Generalised_Zoning_Dissolve_UTM33S20180828130248129</value>
+      </LayerSnappingList>
+      <LayerSnappingEnabledList type="QStringList">
+        <value>disabled</value>
+        <value>disabled</value>
+      </LayerSnappingEnabledList>
       <SnappingMode type="QString">current_layer</SnappingMode>
       <AvoidIntersectionsList type="QStringList"/>
-      <LayerSnappingToleranceUnitList type="QStringList"/>
-      <LayerSnapToList type="QStringList"/>
+      <LayerSnappingToleranceUnitList type="QStringList">
+        <value>2</value>
+        <value>2</value>
+      </LayerSnappingToleranceUnitList>
+      <LayerSnapToList type="QStringList">
+        <value>to_vertex_and_segment</value>
+        <value>to_vertex_and_segment</value>
+      </LayerSnapToList>
       <DefaultSnapType type="QString">off</DefaultSnapType>
       <DefaultSnapTolerance type="double">0</DefaultSnapTolerance>
-      <LayerSnappingToleranceList type="QStringList"/>
+      <LayerSnappingToleranceList type="QStringList">
+        <value>0.000000</value>
+        <value>0.000000</value>
+      </LayerSnappingToleranceList>
     </Digitizing>
     <Identify>
       <disabledLayers type="QStringList"/>

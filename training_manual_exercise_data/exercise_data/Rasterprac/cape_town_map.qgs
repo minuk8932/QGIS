@@ -5,48 +5,73 @@
   <evaluateDefaultValues active="0"/>
   <layer-tree-group expanded="1" checked="Qt::PartiallyChecked" name="">
     <customproperties/>
-    <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Checked" id="Street_Names_UTM33S20180828130038762" source="/Users/minchoba/Documents/QGIS/example_data(Swellendam)/training_manual_exercise_data/exercise_data/more_analysis/Streets/Street_Names_UTM33S.shp|layerid=0" name="Streets">
+    <layer-tree-layer expanded="0" providerKey="ogr" checked="Qt::Checked" id="Street_Names_UTM33S20180828130038762" source="/Users/minchoba/Documents/QGIS/example_data(Swellendam)/training_manual_exercise_data/exercise_data/more_analysis/Streets/Street_Names_UTM33S.shp|layerid=0" name="Streets">
+      <customproperties>
+        <property key="expandedLegendNodes"/>
+      </customproperties>
+    </layer-tree-layer>
+    <layer-tree-layer expanded="1" providerKey="gdal" checked="Qt::Checked" id="Rainfall_120020180828163656820" source="/Users/minchoba/Documents/QGIS/example_data(Swellendam)/training_manual_exercise_data/exercise_data/Rasterprac/Rainfall_1200.tif" name="Rainfall_1200">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" providerKey="gdal" checked="Qt::Checked" id="aspect_east20180828163103792" source="/Users/minchoba/Documents/QGIS/example_data(Swellendam)/training_manual_exercise_data/exercise_data/Rasterprac/aspect_east.tif" name="aspect_east">
-      <customproperties/>
+    <layer-tree-layer expanded="0" providerKey="gdal" checked="Qt::Checked" id="aspect_east20180828163103792" source="/Users/minchoba/Documents/QGIS/example_data(Swellendam)/training_manual_exercise_data/exercise_data/Rasterprac/aspect_east.tif" name="aspect_east">
+      <customproperties>
+        <property key="expandedLegendNodes"/>
+      </customproperties>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" providerKey="gdal" checked="Qt::Checked" id="slope_east20180828163015810" source="/Users/minchoba/Documents/QGIS/example_data(Swellendam)/training_manual_exercise_data/exercise_data/Rasterprac/slope_east.tif" name="slope_east">
-      <customproperties/>
+    <layer-tree-layer expanded="0" providerKey="gdal" checked="Qt::Checked" id="slope_east20180828163015810" source="/Users/minchoba/Documents/QGIS/example_data(Swellendam)/training_manual_exercise_data/exercise_data/Rasterprac/slope_east.tif" name="slope_east">
+      <customproperties>
+        <property key="expandedLegendNodes"/>
+      </customproperties>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Checked" id="Western_Cape_UTM33S20180828160529745" source="/Users/minchoba/Documents/QGIS/example_data(Swellendam)/training_manual_exercise_data/exercise_data/more_analysis/Western_Cape_UTM33S/Western_Cape_UTM33S.shp" name="Districts">
-      <customproperties/>
+    <layer-tree-layer expanded="0" providerKey="ogr" checked="Qt::Checked" id="Western_Cape_UTM33S20180828160529745" source="/Users/minchoba/Documents/QGIS/example_data(Swellendam)/training_manual_exercise_data/exercise_data/more_analysis/Western_Cape_UTM33S/Western_Cape_UTM33S.shp" name="Districts">
+      <customproperties>
+        <property key="expandedLegendNodes"/>
+      </customproperties>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Unchecked" id="Generalised_Zoning_Dissolve_UTM33S20180828130248129" source="/Users/minchoba/Documents/QGIS/example_data(Swellendam)/training_manual_exercise_data/exercise_data/more_analysis/Zoning/Generalised_Zoning_Dissolve_UTM33S.shp" name="Zoning">
-      <customproperties/>
+    <layer-tree-layer expanded="0" providerKey="ogr" checked="Qt::Unchecked" id="Generalised_Zoning_Dissolve_UTM33S20180828130248129" source="/Users/minchoba/Documents/QGIS/example_data(Swellendam)/training_manual_exercise_data/exercise_data/more_analysis/Zoning/Generalised_Zoning_Dissolve_UTM33S.shp" name="Zoning">
+      <customproperties>
+        <property key="expandedLegendNodes"/>
+      </customproperties>
     </layer-tree-layer>
     <layer-tree-layer expanded="0" providerKey="gdal" checked="Qt::Unchecked" id="aspect_east20180827201359601" source="/Users/minchoba/Documents/QGIS/example_data(Swellendam)/training_manual_exercise_data/exercise_data/Rasterprac/aspect_east.tif" name="aspect_east">
-      <customproperties/>
+      <customproperties>
+        <property key="expandedLegendNodes"/>
+      </customproperties>
     </layer-tree-layer>
     <layer-tree-layer expanded="0" providerKey="gdal" checked="Qt::Unchecked" id="aspect20180827201050359" source="/Users/minchoba/Documents/QGIS/example_data(Swellendam)/training_manual_exercise_data/exercise_data/Rasterprac/aspect.tif" name="aspect">
-      <customproperties/>
+      <customproperties>
+        <property key="expandedLegendNodes"/>
+      </customproperties>
     </layer-tree-layer>
-    <layer-tree-layer expanded="0" providerKey="gdal" checked="Qt::Checked" id="hillshade20180828162404549" source="/Users/minchoba/Documents/QGIS/example_data(Swellendam)/training_manual_exercise_data/exercise_data/Rasterprac/hillshade.tif" name="hillshade">
-      <customproperties/>
+    <layer-tree-layer expanded="0" providerKey="gdal" checked="Qt::Unchecked" id="hillshade20180828162404549" source="/Users/minchoba/Documents/QGIS/example_data(Swellendam)/training_manual_exercise_data/exercise_data/Rasterprac/hillshade.tif" name="hillshade">
+      <customproperties>
+        <property key="expandedLegendNodes"/>
+      </customproperties>
     </layer-tree-layer>
-    <layer-tree-layer expanded="0" providerKey="gdal" checked="Qt::Checked" id="slope20180828162555790" source="/Users/minchoba/Documents/QGIS/example_data(Swellendam)/training_manual_exercise_data/exercise_data/Rasterprac/slope.tif" name="slope">
-      <customproperties/>
+    <layer-tree-layer expanded="0" providerKey="gdal" checked="Qt::Unchecked" id="slope20180828162555790" source="/Users/minchoba/Documents/QGIS/example_data(Swellendam)/training_manual_exercise_data/exercise_data/Rasterprac/slope.tif" name="slope">
+      <customproperties>
+        <property key="expandedLegendNodes"/>
+      </customproperties>
     </layer-tree-layer>
     <layer-tree-layer expanded="0" providerKey="gdal" checked="Qt::Checked" id="Rainfall_clipper20180828161029386" source="/Users/minchoba/Documents/QGIS/example_data(Swellendam)/training_manual_exercise_data/exercise_data/Rasterprac/Rainfall_clipper.tif" name="Rainfall_clipper">
-      <customproperties/>
+      <customproperties>
+        <property key="expandedLegendNodes"/>
+      </customproperties>
     </layer-tree-layer>
     <layer-tree-layer expanded="0" providerKey="gdal" checked="Qt::Checked" id="DEM_cliper20180828160931079" source="/Users/minchoba/Documents/QGIS/example_data(Swellendam)/training_manual_exercise_data/exercise_data/Rasterprac/DEM_cliper.tif" name="DEM_cliper">
-      <customproperties/>
+      <customproperties>
+        <property key="expandedLegendNodes"/>
+      </customproperties>
     </layer-tree-layer>
   </layer-tree-group>
   <relations/>
   <mapcanvas>
     <units>meters</units>
     <extent>
-      <xmin>808104.51643028075341135</xmin>
-      <ymin>6193087.69463594909757376</ymin>
-      <xmax>854925.99665321607608348</xmax>
-      <ymax>6270561.31007036101073027</ymax>
+      <xmin>800343.53913720254786313</xmin>
+      <ymin>6192406.90715409908443689</ymin>
+      <xmax>847165.01936013787053525</xmax>
+      <ymax>6269880.5225885109975934</ymax>
     </extent>
     <rotation>0</rotation>
     <projections>1</projections>
@@ -70,15 +95,19 @@
       <layer_coordinate_transform destAuthId="EPSG:32733" srcAuthId="EPSG:32733" srcDatumTransform="-1" destDatumTransform="-1" layerid="rainfall20180828131528393"/>
       <layer_coordinate_transform destAuthId="EPSG:32733" srcAuthId="EPSG:32733" srcDatumTransform="-1" destDatumTransform="-1" layerid="hillshade20180828162404549"/>
       <layer_coordinate_transform destAuthId="EPSG:32733" srcAuthId="EPSG:32733" srcDatumTransform="-1" destDatumTransform="-1" layerid="Western_Cape_UTM33S20180828152037533"/>
+      <layer_coordinate_transform destAuthId="EPSG:32733" srcAuthId="EPSG:32733" srcDatumTransform="-1" destDatumTransform="-1" layerid="Rainfall_clipper20180828163354182"/>
       <layer_coordinate_transform destAuthId="EPSG:32733" srcAuthId="EPSG:32733" srcDatumTransform="-1" destDatumTransform="-1" layerid="aspect20180827201050359"/>
       <layer_coordinate_transform destAuthId="EPSG:32733" srcAuthId="EPSG:32733" srcDatumTransform="-1" destDatumTransform="-1" layerid="western_cape_utm33s20180828132354143"/>
+      <layer_coordinate_transform destAuthId="EPSG:32733" srcAuthId="EPSG:32733" srcDatumTransform="-1" destDatumTransform="-1" layerid="Rainfall_120020180828163501041"/>
       <layer_coordinate_transform destAuthId="EPSG:32733" srcAuthId="EPSG:32733" srcDatumTransform="-1" destDatumTransform="-1" layerid="DEM_cliper20180828160931079"/>
       <layer_coordinate_transform destAuthId="EPSG:32733" srcAuthId="EPSG:32733" srcDatumTransform="-1" destDatumTransform="-1" layerid="Western_Cape_UTM33S20180828151107594"/>
       <layer_coordinate_transform destAuthId="EPSG:32733" srcAuthId="EPSG:32733" srcDatumTransform="-1" destDatumTransform="-1" layerid="DEM20180827200939466"/>
       <layer_coordinate_transform destAuthId="EPSG:32733" srcAuthId="EPSG:32733" srcDatumTransform="-1" destDatumTransform="-1" layerid="Generalised_Zoning_Dissolve_UTM33S20180828130248129"/>
+      <layer_coordinate_transform destAuthId="EPSG:32733" srcAuthId="EPSG:32733" srcDatumTransform="-1" destDatumTransform="-1" layerid="Rainfall_120020180828163656820"/>
       <layer_coordinate_transform destAuthId="EPSG:32733" srcAuthId="EPSG:32733" srcDatumTransform="-1" destDatumTransform="-1" layerid="Western_Cape_UTM33S20180828160529745"/>
       <layer_coordinate_transform destAuthId="EPSG:32733" srcAuthId="EPSG:32733" srcDatumTransform="-1" destDatumTransform="-1" layerid="DEM20180828131455331"/>
       <layer_coordinate_transform destAuthId="EPSG:32733" srcAuthId="EPSG:32733" srcDatumTransform="-1" destDatumTransform="-1" layerid="Rainfall_clipper20180828161029386"/>
+      <layer_coordinate_transform destAuthId="EPSG:32733" srcAuthId="EPSG:32733" srcDatumTransform="-1" destDatumTransform="-1" layerid="Rainfall_120020180828163303235"/>
       <layer_coordinate_transform destAuthId="EPSG:32733" srcAuthId="EPSG:32733" srcDatumTransform="-1" destDatumTransform="-1" layerid="slope20180828162555790"/>
       <layer_coordinate_transform destAuthId="EPSG:32733" srcAuthId="EPSG:32733" srcDatumTransform="-1" destDatumTransform="-1" layerid="aspect_east20180828163103792"/>
       <layer_coordinate_transform destAuthId="EPSG:32733" srcAuthId="EPSG:32733" srcDatumTransform="-1" destDatumTransform="-1" layerid="Street_Names_UTM33S20180828130038762"/>
@@ -97,31 +126,37 @@
       <item>slope20180828162555790</item>
       <item>slope_east20180828163015810</item>
       <item>aspect_east20180828163103792</item>
+      <item>Rainfall_120020180828163656820</item>
     </custom-order>
   </layer-tree-canvas>
   <legend updateDrawingOrder="true">
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Streets" showFeatureCount="0">
-      <filegroup open="true" hidden="false">
+    <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="Streets" showFeatureCount="0">
+      <filegroup open="false" hidden="false">
         <legendlayerfile isInOverview="0" layerid="Street_Names_UTM33S20180828130038762" visible="1"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="aspect_east" showFeatureCount="0">
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Rainfall_1200" showFeatureCount="0">
       <filegroup open="true" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="Rainfall_120020180828163656820" visible="1"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="aspect_east" showFeatureCount="0">
+      <filegroup open="false" hidden="false">
         <legendlayerfile isInOverview="0" layerid="aspect_east20180828163103792" visible="1"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="slope_east" showFeatureCount="0">
-      <filegroup open="true" hidden="false">
+    <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="slope_east" showFeatureCount="0">
+      <filegroup open="false" hidden="false">
         <legendlayerfile isInOverview="0" layerid="slope_east20180828163015810" visible="1"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Districts" showFeatureCount="0">
-      <filegroup open="true" hidden="false">
+    <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="Districts" showFeatureCount="0">
+      <filegroup open="false" hidden="false">
         <legendlayerfile isInOverview="0" layerid="Western_Cape_UTM33S20180828160529745" visible="1"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Zoning" showFeatureCount="0">
-      <filegroup open="true" hidden="false">
+    <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Zoning" showFeatureCount="0">
+      <filegroup open="false" hidden="false">
         <legendlayerfile isInOverview="0" layerid="Generalised_Zoning_Dissolve_UTM33S20180828130248129" visible="0"/>
       </filegroup>
     </legendlayer>
@@ -135,14 +170,14 @@
         <legendlayerfile isInOverview="0" layerid="aspect20180827201050359" visible="0"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="hillshade" showFeatureCount="0">
+    <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="hillshade" showFeatureCount="0">
       <filegroup open="false" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="hillshade20180828162404549" visible="1"/>
+        <legendlayerfile isInOverview="0" layerid="hillshade20180828162404549" visible="0"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="slope" showFeatureCount="0">
+    <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="slope" showFeatureCount="0">
       <filegroup open="false" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="slope20180828162555790" visible="1"/>
+        <legendlayerfile isInOverview="0" layerid="slope20180828162555790" visible="0"/>
       </filegroup>
     </legendlayer>
     <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="Rainfall_clipper" showFeatureCount="0">
@@ -503,6 +538,57 @@ def my_form_open(dialog, layer, feature):
         <default field="Gen_Zoning" expression=""/>
       </defaults>
       <previewExpression></previewExpression>
+    </maplayer>
+    <maplayer minimumScale="inf" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+      <extent>
+        <xmin>804685.53511000005528331</xmin>
+        <ymin>6192207.47489999979734421</ymin>
+        <xmax>850437.73152000003028661</xmax>
+        <ymax>6267637.04220000002533197</ymax>
+      </extent>
+      <id>Rainfall_120020180828163656820</id>
+      <datasource>./Rainfall_1200.tif</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>Rainfall_1200</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=utm +zone=33 +south +datum=WGS84 +units=m +no_defs</proj4>
+          <srsid>3183</srsid>
+          <srid>32733</srid>
+          <authid>EPSG:32733</authid>
+          <description>WGS 84 / UTM zone 33S</description>
+          <projectionacronym>utm</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <customproperties>
+        <property key="embeddedWidgets/count" value="0"/>
+        <property key="identify/format" value="Value"/>
+      </customproperties>
+      <provider>gdal</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="1"/>
+      </noData>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <pipe>
+        <rasterrenderer gradient="BlackToWhite" opacity="1" alphaBand="-1" type="singlebandgray" grayBand="1">
+          <rasterTransparency/>
+          <contrastEnhancement>
+            <minValue>0</minValue>
+            <maxValue>1</maxValue>
+            <algorithm>StretchToMinimumMaximum</algorithm>
+          </contrastEnhancement>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
     </maplayer>
     <maplayer minimumScale="inf" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
       <extent>
@@ -1195,7 +1281,7 @@ def my_form_open(dialog, layer, feature):
       </pipe>
       <blendMode>0</blendMode>
     </maplayer>
-    <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+    <maplayer minimumScale="inf" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
       <extent>
         <xmin>804685.53511000005528331</xmin>
         <ymin>6192207.47489999979734421</ymin>
@@ -1221,6 +1307,7 @@ def my_form_open(dialog, layer, feature):
         </spatialrefsys>
       </srs>
       <customproperties>
+        <property key="embeddedWidgets/count" value="0"/>
         <property key="identify/format" value="Value"/>
       </customproperties>
       <provider>gdal</provider>
@@ -1231,11 +1318,11 @@ def my_form_open(dialog, layer, feature):
         <map-layer-style name=""/>
       </map-layer-style-manager>
       <pipe>
-        <rasterrenderer gradient="BlackToWhite" opacity="1" alphaBand="-1" type="singlebandgray" grayBand="1">
+        <rasterrenderer gradient="BlackToWhite" opacity="1" alphaBand="0" type="singlebandgray" grayBand="1">
           <rasterTransparency/>
           <contrastEnhancement>
             <minValue>0</minValue>
-            <maxValue>0.999</maxValue>
+            <maxValue>1</maxValue>
             <algorithm>StretchToMinimumMaximum</algorithm>
           </contrastEnhancement>
         </rasterrenderer>
@@ -1351,7 +1438,7 @@ def my_form_open(dialog, layer, feature):
       </pipe>
       <blendMode>0</blendMode>
     </maplayer>
-    <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+    <maplayer minimumScale="inf" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
       <extent>
         <xmin>804685.53511000005528331</xmin>
         <ymin>6192207.47489999979734421</ymin>
@@ -1377,6 +1464,7 @@ def my_form_open(dialog, layer, feature):
         </spatialrefsys>
       </srs>
       <customproperties>
+        <property key="embeddedWidgets/count" value="0"/>
         <property key="identify/format" value="Value"/>
       </customproperties>
       <provider>gdal</provider>
@@ -1387,11 +1475,11 @@ def my_form_open(dialog, layer, feature):
         <map-layer-style name=""/>
       </map-layer-style-manager>
       <pipe>
-        <rasterrenderer gradient="BlackToWhite" opacity="1" alphaBand="-1" type="singlebandgray" grayBand="1">
+        <rasterrenderer gradient="BlackToWhite" opacity="1" alphaBand="0" type="singlebandgray" grayBand="1">
           <rasterTransparency/>
           <contrastEnhancement>
             <minValue>0</minValue>
-            <maxValue>0.999</maxValue>
+            <maxValue>1</maxValue>
             <algorithm>StretchToMinimumMaximum</algorithm>
           </contrastEnhancement>
         </rasterrenderer>

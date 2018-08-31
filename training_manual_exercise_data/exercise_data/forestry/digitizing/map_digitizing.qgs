@@ -5,15 +5,21 @@
   <evaluateDefaultValues active="0"/>
   <layer-tree-group expanded="1" checked="Qt::Checked" name="">
     <customproperties/>
+    <layer-tree-layer expanded="1" providerKey="gdal" checked="Qt::Checked" id="rautjarvi_aerial20180831153243445" source="/Users/minchoba/Documents/QGIS/example_data(Swellendam)/training_manual_exercise_data/exercise_data/forestry/rautjarvi_aerial.tif" name="rautjarvi_aerial">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer expanded="1" providerKey="gdal" checked="Qt::Checked" id="rautjarvi_georef20180831152555807" source="/Users/minchoba/Documents/QGIS/example_data(Swellendam)/training_manual_exercise_data/exercise_data/forestry/digitizing/rautjarvi_georef.tif" name="rautjarvi_georef">
+      <customproperties/>
+    </layer-tree-layer>
   </layer-tree-group>
   <relations/>
   <mapcanvas>
     <units>meters</units>
     <extent>
-      <xmin>894.71259689922499092</xmin>
-      <ymin>-4989.79844961240269186</ymin>
-      <xmax>4577.06259689922535472</xmax>
-      <ymax>218.2015503875968534</ymax>
+      <xmin>395792.08867104887031019</xmin>
+      <ymin>6783563.30801942199468613</ymin>
+      <xmax>399105.6659458049107343</xmax>
+      <ymax>6788116.41388627700507641</ymax>
     </extent>
     <rotation>0</rotation>
     <projections>1</projections>
@@ -32,19 +38,36 @@
     <rendermaptile>0</rendermaptile>
     <layer_coordinate_transform_info>
       <layer_coordinate_transform destAuthId="EPSG:3067" srcAuthId="EPSG:3067" srcDatumTransform="-1" destDatumTransform="-1" layerid="rautjarvi_map20180831143026116"/>
+      <layer_coordinate_transform destAuthId="EPSG:3067" srcAuthId="EPSG:3047" srcDatumTransform="-1" destDatumTransform="-1" layerid="rautjarvi_aerial20180831153243445"/>
+      <layer_coordinate_transform destAuthId="EPSG:3067" srcAuthId="EPSG:3047" srcDatumTransform="-1" destDatumTransform="-1" layerid="rautjarvi_aerial20180831153143280"/>
+      <layer_coordinate_transform destAuthId="EPSG:3067" srcAuthId="EPSG:2392" srcDatumTransform="-1" destDatumTransform="-1" layerid="rautjarvi_georef20180831152555807"/>
     </layer_coordinate_transform_info>
   </mapcanvas>
   <layer-tree-canvas>
-    <custom-order enabled="0"/>
+    <custom-order enabled="0">
+      <item>rautjarvi_georef20180831152555807</item>
+      <item>rautjarvi_aerial20180831153243445</item>
+    </custom-order>
   </layer-tree-canvas>
-  <legend updateDrawingOrder="true"/>
+  <legend updateDrawingOrder="true">
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="rautjarvi_aerial" showFeatureCount="0">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="rautjarvi_aerial20180831153243445" visible="1"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="rautjarvi_georef" showFeatureCount="0">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="rautjarvi_georef20180831152555807" visible="1"/>
+      </filegroup>
+    </legendlayer>
+  </legend>
   <mapcanvas>
     <units>degrees</units>
     <extent>
-      <xmin>0</xmin>
-      <ymin>0</ymin>
-      <xmax>0</xmax>
-      <ymax>0</ymax>
+      <xmin>-25328.87799000291124685</xmin>
+      <ymin>-14170.96993152429058682</ymin>
+      <xmax>18466.08497296213317895</xmax>
+      <ymax>5669.03006847665164969</ymax>
     </extent>
     <rotation>0</rotation>
     <projections>0</projections>
@@ -63,7 +86,104 @@
     <rendermaptile>0</rendermaptile>
     <layer_coordinate_transform_info/>
   </mapcanvas>
-  <projectlayers/>
+  <projectlayers>
+    <maplayer minimumScale="inf" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+      <extent>
+        <xmin>396488</xmin>
+        <ymin>6785232.75</ymin>
+        <xmax>398484.5</xmax>
+        <ymax>6787413.375</ymax>
+      </extent>
+      <id>rautjarvi_aerial20180831153243445</id>
+      <datasource>../rautjarvi_aerial.tif</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>rautjarvi_aerial</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=utm +zone=35 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+          <srsid>1012</srsid>
+          <srid>3047</srid>
+          <authid>EPSG:3047</authid>
+          <description>ETRS89 / ETRS-TM35</description>
+          <projectionacronym>utm</projectionacronym>
+          <ellipsoidacronym>GRS80</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <customproperties>
+        <property key="embeddedWidgets/count" value="0"/>
+        <property key="identify/format" value="Value"/>
+      </customproperties>
+      <provider>gdal</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="0"/>
+        <noDataList bandNo="2" useSrcNoData="0"/>
+        <noDataList bandNo="3" useSrcNoData="0"/>
+      </noData>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <pipe>
+        <rasterrenderer opacity="0.498039" alphaBand="0" blueBand="3" greenBand="2" type="multibandcolor" redBand="1">
+          <rasterTransparency/>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+      <extent>
+        <xmin>2556593.30218931473791599</xmin>
+        <ymin>6785488.97122507262974977</ymin>
+        <xmax>2559560.30218931473791599</xmax>
+        <ymax>6789694.97122507262974977</ymax>
+      </extent>
+      <id>rautjarvi_georef20180831152555807</id>
+      <datasource>./rautjarvi_georef.tif</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>rautjarvi_georef</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=tmerc +lat_0=0 +lon_0=24 +k=1 +x_0=2500000 +y_0=0 +ellps=intl +towgs84=-96.062,-82.428,-121.753,4.801,0.345,-1.376,1.496 +units=m +no_defs</proj4>
+          <srsid>361</srsid>
+          <srid>2392</srid>
+          <authid>EPSG:2392</authid>
+          <description>KKJ / Finland zone 2</description>
+          <projectionacronym>tmerc</projectionacronym>
+          <ellipsoidacronym>intl</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <customproperties>
+        <property key="identify/format" value="Value"/>
+      </customproperties>
+      <provider>gdal</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="0"/>
+        <noDataList bandNo="2" useSrcNoData="0"/>
+        <noDataList bandNo="3" useSrcNoData="0"/>
+        <noDataList bandNo="4" useSrcNoData="0"/>
+      </noData>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <pipe>
+        <rasterrenderer opacity="1" alphaBand="4" blueBand="3" greenBand="2" type="multibandcolor" redBand="1">
+          <rasterTransparency/>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+  </projectlayers>
   <properties>
     <Variables>
       <variableNames type="QStringList"/>

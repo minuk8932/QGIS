@@ -497,6 +497,9 @@ def my_form_open(dialog, layer, feature):
         <edittype widgetv2type="TextEdit" name="MainPerc">
           <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
         </edittype>
+        <edittype widgetv2type="TextEdit" name="area">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
       </edittypes>
       <renderer-v2 forceraster="0" symbollevels="0" type="singleSymbol" enableorderby="0">
         <symbols>
@@ -726,11 +729,12 @@ def my_form_open(dialog, layer, feature):
         <alias field="Vol" index="5" name=""/>
         <alias field="MainSp" index="6" name=""/>
         <alias field="MainPerc" index="7" name=""/>
+        <alias field="area" index="8" name=""/>
       </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions default="-1"/>
-      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="&quot;rautjarvi_&quot;" sortOrder="0">
+      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="&quot;id_1&quot;" sortOrder="0">
         <columns>
           <column width="-1" hidden="0" type="field" name="ID"/>
           <column width="-1" hidden="0" type="field" name="rautjarvi_"/>
@@ -773,29 +777,7 @@ def my_form_open(dialog, layer, feature):
 ]]></editforminitcode>
       <featformsuppress>0</featformsuppress>
       <editorlayout>generatedlayout</editorlayout>
-      <widgets>
-        <widget name="Age">
-          <config/>
-        </widget>
-        <widget name="BA">
-          <config/>
-        </widget>
-        <widget name="Devl">
-          <config/>
-        </widget>
-        <widget name="Hab">
-          <config/>
-        </widget>
-        <widget name="MainPerc">
-          <config/>
-        </widget>
-        <widget name="MainSp">
-          <config/>
-        </widget>
-        <widget name="Vol">
-          <config/>
-        </widget>
-      </widgets>
+      <widgets/>
       <conditionalstyles>
         <rowstyles/>
         <fieldstyles/>
@@ -809,6 +791,7 @@ def my_form_open(dialog, layer, feature):
         <default field="Vol" expression=""/>
         <default field="MainSp" expression=""/>
         <default field="MainPerc" expression=""/>
+        <default field="area" expression=""/>
       </defaults>
       <previewExpression>COALESCE( "ID", '&lt;NULL>' )</previewExpression>
     </maplayer>

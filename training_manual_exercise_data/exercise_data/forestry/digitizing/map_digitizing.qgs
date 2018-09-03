@@ -22,10 +22,10 @@
   <mapcanvas>
     <units>meters</units>
     <extent>
-      <xmin>397428.33879671199247241</xmin>
-      <ymin>6786025.06928637064993382</ymin>
-      <xmax>398421.91582111362367868</xmax>
-      <ymax>6787390.31928776390850544</ymax>
+      <xmin>396580.89248116087401286</xmin>
+      <ymin>6785858.06014053523540497</ymin>
+      <xmax>398445.66581425355980173</xmax>
+      <ymax>6786903.19598337262868881</ymax>
     </extent>
     <rotation>0</rotation>
     <projections>1</projections>
@@ -83,6 +83,12 @@
   </legend>
   <projectlayers>
     <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" readOnly="0" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+      <extent>
+        <xmin>396882.02799999993294477</xmin>
+        <ymin>6785446.48009999841451645</ymin>
+        <xmax>397754.70120000001043081</xmax>
+        <ymax>6787191.7703000009059906</ymax>
+      </extent>
       <id>forest_stands20180903160532864</id>
       <datasource>./forest_stands.shp</datasource>
       <keywordList>
@@ -378,6 +384,12 @@ def my_form_open(dialog, layer, feature):
       <previewExpression></previewExpression>
     </maplayer>
     <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" readOnly="0" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+      <extent>
+        <xmin>2556849.61284594796597958</xmin>
+        <ymin>6786073.15336794964969158</ymin>
+        <xmax>2559560.15099659375846386</xmax>
+        <ymax>6789694.54757109470665455</ymax>
+      </extent>
       <id>green_centroids20180903160518832</id>
       <datasource>./green_centroids.shp</datasource>
       <keywordList>
